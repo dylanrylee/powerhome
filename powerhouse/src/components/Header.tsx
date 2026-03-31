@@ -10,14 +10,10 @@ export default function Header() {
         </div>
         <nav className="hidden md:flex gap-10 text-xs font-semibold text-slate-600 tracking-[0.1em] uppercase">
           <a href="#" className="hover:text-slate-900 transition-colors">Services</a>
-          <a href="#" className="hover:text-slate-900 transition-colors">Portfolio</a>
           <a href="#" className="hover:text-slate-900 transition-colors">About</a>
           <a href="#" className="hover:text-slate-900 transition-colors">Contact</a>
         </nav>
         <div className="flex items-center gap-4">
-          <button className="hidden sm:block text-xs font-semibold text-slate-600 uppercase tracking-widest hover:text-slate-900 transition-colors">
-            Log in
-          </button>
           <button className="bg-transparent text-slate-900 px-6 py-2.5 rounded-none text-xs font-semibold hover:bg-slate-900 hover:text-white transition-colors shadow-none border border-slate-900 tracking-widest uppercase">
             Get Quote
           </button>

@@ -26,9 +26,6 @@ export default function Hero() {
           <button className="w-full sm:w-auto bg-white text-slate-900 px-8 py-4 rounded-none text-xs uppercase tracking-widest font-semibold hover:bg-slate-100 transition-colors shadow-lg">
             Get a Free Estimate
           </button>
-          <button className="w-full sm:w-auto bg-transparent border border-white text-white px-8 py-4 rounded-none text-xs uppercase tracking-widest font-semibold hover:bg-white/10 transition-colors">
-            Explore Portfolio
-          </button>
         </div>
       </div>
     </section>

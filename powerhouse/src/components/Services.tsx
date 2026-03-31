@@ -16,8 +16,8 @@ export default function Services() {
       image: "/images/IMG_1724.jpeg"
     },
     {
-      title: "Basement Renovations",
-      description: "Turn your underutilized basement into a stunning living area, home theater, or functional suite with our comprehensive renovation services.",
+      title: "General Home Renovations",
+      description: "Transform any underutilized area into a stunning, fully-functional living space with our comprehensive home renovation services.",
       image: "/images/IMG_0580.jpeg"
     }
   ]
@@ -35,13 +35,6 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {services.map((service, index) => (
             <div key={index} className="group cursor-pointer">
-              <div className="relative h-[400px] mb-6 overflow-hidden bg-slate-100">
-                <img 
-                  src={service.image} 
-                  alt={service.title} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                />
-              </div>
               <h3 className="text-xl font-serif font-medium text-slate-900 mb-3">{service.title}</h3>
               <p className="text-sm font-light leading-relaxed text-slate-600 mb-4">{service.description}</p>
               <div className="inline-flex items-center text-xs font-semibold uppercase tracking-widest text-slate-900 group-hover:text-amber-700 transition-colors">

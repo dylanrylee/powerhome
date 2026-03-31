@@ -1,9 +1,9 @@
 export default function Gallery() {
   const images = [
-    { src: "/images/IMG_0580.jpeg", span: "md:col-span-2 md:row-span-2", alt: "Living Space Renovation" },
-    { src: "/images/IMG_0713.jpeg", span: "md:col-span-1 md:row-span-1", alt: "Detail Woodwork" },
-    { src: "/images/IMG_1725.jpeg", span: "md:col-span-1 md:row-span-1", alt: "Modern Bathroom" },
-    { src: "/images/21e24be5288f54b46a4bd77788ce8557.jpeg", span: "md:col-span-2 md:row-span-1", alt: "Exterior Finish" }
+    { src: "/images/IMG_1860.jpeg", span: "md:col-span-3", alt: "Project Highlights" },
+    { src: "/images/IMG_0580.jpeg", span: "md:col-span-1", alt: "Basement Renovation" },
+    { src: "/images/IMG_0713.jpeg", span: "md:col-span-1", alt: "Woodwork Detail" },
+    { src: "/images/IMG_1721.jpeg", span: "md:col-span-1", alt: "Interior Details" }
   ];
 
   return (
@@ -11,7 +11,7 @@ export default function Gallery() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div className="max-w-2xl">
-            <h2 className="text-3xl md:text-5xl font-serif font-light text-slate-900 mb-4 tracking-tight">Recent Projects</h2>
+            <h2 className="text-3xl md:text-5xl font-serif font-light text-slate-900 mb-4 tracking-tight">Project Portfolio</h2>
             <p className="text-slate-500 font-light leading-relaxed">
               Explore our portfolio of completed works, showcasing our dedication to quality materials and timeless design.
             </p>
@@ -21,13 +21,13 @@ export default function Gallery() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:auto-rows-[300px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
           {images.map((img, i) => (
             <div key={i} className={`relative overflow-hidden group ${img.span} bg-slate-200`}>
               <img 
                 src={img.src} 
                 alt={img.alt} 
-                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+                className="w-full h-auto transition-transform duration-1000 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/20 transition-colors duration-500 mix-blend-overlay"></div>
             </div>
