@@ -49,6 +49,12 @@ html {
 .reveal-group.is-visible > *:nth-child(7) { opacity: 1; transform: none; transition-delay: 600ms; }
 .reveal-group.is-visible > *:nth-child(8) { opacity: 1; transform: none; transition-delay: 700ms; }
 .reveal-group.is-visible > *:nth-child(9) { opacity: 1; transform: none; transition-delay: 800ms; }
+.reveal-group.is-visible > *:nth-child(10) { opacity: 1; transform: none; transition-delay: 900ms; }
+.reveal-group.is-visible > *:nth-child(11) { opacity: 1; transform: none; transition-delay: 1000ms; }
+.reveal-group.is-visible > *:nth-child(12) { opacity: 1; transform: none; transition-delay: 1100ms; }
+.reveal-group.is-visible > *:nth-child(13) { opacity: 1; transform: none; transition-delay: 1200ms; }
+.reveal-group.is-visible > *:nth-child(14) { opacity: 1; transform: none; transition-delay: 1300ms; }
+.reveal-group.is-visible > *:nth-child(15) { opacity: 1; transform: none; transition-delay: 1400ms; }
 
 /* ── Floating badge pulse ── */
 @keyframes float {

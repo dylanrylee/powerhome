@@ -1,21 +1,23 @@
 import { useReveal } from '../hooks/useReveal'
 
 const collageImages = [
-  { src: '/images/after_basement.jpeg',    alt: 'Basement Renovation' },
-  { src: '/images/basement1.jpg',          alt: 'Basement Work' },
-  { src: '/images/deck-renovation1.jpg',   alt: 'Deck Renovation' },
-  { src: '/images/IMG_0580.jpeg',          alt: 'Home Renovation' },
-  { src: '/images/IMG_1721.jpeg',          alt: 'Interior Details' },
+  { src: '/images/after_basement.jpeg', alt: 'Basement Renovation' },
+  { src: '/images/basement1.jpg', alt: 'Basement Work' },
+  { src: '/images/deck-renovation1.jpg', alt: 'Deck Renovation' },
+  { src: '/images/IMG_0580.jpeg', alt: 'Home Renovation' },
+  { src: '/images/IMG_1721.jpeg', alt: 'Interior Details' },
   { src: '/images/kitchen-renovation.png', alt: 'Kitchen Renovation' },
-  { src: '/images/paint1.jpg',             alt: 'Interior Painting' },
-  { src: '/images/pergola1.jpg',           alt: 'Pergola Build' },
-  { src: '/images/stair.png',              alt: 'Stair Work' },
-  { src: '/images/tv-mount.png',           alt: 'TV Mount Installation' },
+  { src: '/images/paint1.jpg', alt: 'Interior Painting' },
+  { src: '/images/pergola1.jpg', alt: 'Pergola Build' },
+  { src: '/images/stair.png', alt: 'Stair Work' },
+  { src: '/images/tv-mount.png', alt: 'TV Mount Installation' },
+  { src: '/images/washroom1.jpg', alt: 'Washroom Renovation' },
+  { src: '/images/washroom2.jpg', alt: 'Washroom Renovation' },
 ]
 
 export default function BasementShowcase() {
   const headingRef = useReveal<HTMLDivElement>()
-  const gridRef    = useReveal<HTMLDivElement>(0.05)
+  const gridRef = useReveal<HTMLDivElement>(0.05)
 
   return (
     <section id="gallery" className="py-24 bg-slate-50 border-y border-slate-100">
@@ -26,7 +28,7 @@ export default function BasementShowcase() {
             General Home Renovations
           </h2>
           <p className="text-slate-500 max-w-2xl mx-auto font-light leading-relaxed">
-            From kitchens and basements to decks and beyond — craftsmanship you can see in every detail.
+            From kitchens and basements to decks and beyond, craftsmanship you can see in every detail.
           </p>
         </div>
 
